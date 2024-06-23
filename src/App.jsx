@@ -39,7 +39,7 @@ useEffect(()=>{
      <TodoProvider value={{todos, addTodo, updateTodo, deleteTodo, toggleComplete}}>
       <div className="bg-[#172842] min-h-screen py-8">
                 <div className="w-full max-w-2xl mx-auto shadow-md rounded-lg px-4 py-3 text-white">
-                    <h1 className="text-2xl font-bold text-center mb-8 mt-2">Manage Your Todos</h1>
+                    <h1 className="text-2xl font-bold text-center mb-8 mt-2">MAKE CHALLENGES</h1>
                     <div className="mb-4">
                         {/* Todo form goes here */} 
                         <TodoForm />
@@ -55,7 +55,7 @@ useEffect(()=>{
                         ))}
                     </div>
                 </div>
-        <h2 className="fixed bottom-0 left-1/2 transform -translate-x-1/2 text-center mb-4 text-white">made by divendra</h2>
+        <h2 className="fixed bottom-0 left-1/2 transform -translate-x-1/2 text-center mb-4 text-white">~ Made By Divendra</h2>
             </div>
     </TodoProvider>
   
