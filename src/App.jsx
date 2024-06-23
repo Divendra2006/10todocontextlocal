@@ -55,7 +55,7 @@ useEffect(()=>{
                         ))}
                     </div>
                 </div>
-        <h2>made by divendra</h2>
+        <h2 className="fixed bottom-0 left-1/2 transform -translate-x-1/2 text-center mb-4 text-white">made by divendra</h2>
             </div>
     </TodoProvider>
   
