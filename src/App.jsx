@@ -55,6 +55,7 @@ useEffect(()=>{
                         ))}
                     </div>
                 </div>
+        <h2>made by divendra</h2>
             </div>
     </TodoProvider>
   
